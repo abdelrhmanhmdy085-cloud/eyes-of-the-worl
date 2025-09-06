@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  
+    <meta charset="UTF-8">
+  <meta property="og:title" content="Eyes of the World">  
+  <link rel="stylesheet" href="style.css">
+
+
+</head>
+<body>
+    <div class="login-container">
+        
+      
+        <h1 id="title">Welcome to Eyes of the World</h1>
+        
+      <h2 id="title">تسجيل مستخدم جديد</h2>
+
+        <label for="language" id="lang-label">اختر اللغة:</label>
+        <select id="language" onchange="changeLang()">
+        <option value="ar">العربية</option>
+        <option value="en">English</option>
+        <option value="fr">Français</option>
+        <option value="es">Español</option>
+        <option value="de">Deutsch</option>
+        <option value="zh">中文</option>
+        <option value="hi">हिन्दी</option>
+        <option value="ru">Русский</option>
+        <option value="ja">日本語</option>
+        <option value="pt">Português</option> 
+        <option value="it">Italiano</option>
+        <option value="ko">한국어</option>
+        <option value="nl">Nederlands</option>
+        <option value="sv">Svenska</option>
+        <option value="tr">Türkçe</option>
+        <option value="pl">Polski</option>
+        <option value="da">Dansk</option>
+        <option value="fi">Suomi</option>
+        <option value="no">Norsk</option>
+        <option value="el">Ελληνικά</option>
+        <option value="he">עברית</option>
+        <option value="th">ไทย</option>
+        <option value="vi">Tiếng Việt</option>  
+        <option value="ro">Română</option>
+        <option value="hu">Magyar</option>
+        <option value="cs">Čeština</option>
+        <option value="sk">Slovenčina</option>
+        <option value="bg">Български</option>
+        <option value="uk">Українська</option>
+        <option value="hr">Hrvatski</option>
+        <option value="sr">Српски</option>
+        <option value="lt">Lietuvių</option>
+        <option value="lv">Latviešu</option>
+        <option value="et">Eesti</option>
+        <option value="sl">Slovenščina</option>
+        <option value="is">Íslenska</option>
+        <option value="ms">Bahasa Melayu</option>
+        <option value="id">Bahasa Indonesia</option>
+        <option value="fa">فارسی</option>
+        <option value="ur">اردو</option>
+        <option value="sw">Kiswahili</option>
+        <option value="ta">தமிழ்</option>
+        <option value="te">తెలుగు</option>
+        <option value="ml">മലയാളം</option>
+        <option value="kn">ಕನ್ನಡ</option>
+        <option value="mr">मराठी</option>
+        <option value="gu">ગુજરાતી</option>
+        <option value="pa">ਪੰਜਾਬੀ</option>
+     
+        <p id="subtitle">بوابتك إلى الاتصالات العالمية</p>
+      
+    </select> 
+  <form id="loginForm" class="login-box">
+    <input type="text" id="fullname" placeholder="الاسم بالكامل" required>
+    <input type="text" id="username" placeholder="اسم المستخدم" required>
+    <input type="password" id="password" placeholder="كلمة المرور" required>
+    <input type="email" id="email" placeholder="البريد الإلكتروني" required>
+    <input type="text" id="phone" placeholder="رقم الهاتف" required>
+    <input type="text" id="country" placeholder="البلد" required>
+    <input type="text" id="city" placeholder="المدينة" required>
+    <input type="text" id="address" placeholder="العنوان" required>
+    <input type="text" id="postalcode" placeholder="الرمز البريدي" required>
+    <input type="text" id="birthdate" placeholder="تاريخ الميلاد (YYYY-MM-DD)" required>
+     <button id="login-btn" onclick="window.location.href='login.html'">تسجيل الدخول</button>
+  </form>
+       
+        
+    </div>
+  <script src="app.js"></script>
+
+</body>
+</html>

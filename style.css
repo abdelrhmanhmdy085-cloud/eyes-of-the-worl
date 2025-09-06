@@ -1,0 +1,114 @@
+body {
+  margin: 0;
+  padding: 0;
+  height: 100vh;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  color: #ffffff;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  background: url("https://i.postimg.cc/s2fCWMwV/20250903-0004-remix-01k463sqfyeq9vkjvbqpgd08nz.png") 
+   no-repeat center center fixed;
+  background-size: cover;
+}
+ .login-box {
+      background: rgba(0, 0, 0, 0.6);
+      padding: 30px;
+      border-radius: 15px;
+      text-align: center;
+      width: 320px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
+    }
+
+    .login-box h2 {
+      margin-bottom: 20px;
+      font-size: 28px;
+    }
+
+    .login-box input {
+      width: 100%;
+      padding: 12px;
+      margin: 10px 0;
+      border-radius: 8px;
+      border: none;
+      font-size: 16px;
+    }
+
+    .login-box button {
+      width: 100%;
+      padding: 12px;
+      font-size: 18px;
+      border-radius: 8px;
+      cursor: pointer;
+      background-color: #ffffff;
+      color: #0b1df7;
+      border: none;
+      font-weight: bold;
+      transition: 0.3s;
+    }
+
+    .login-box button:hover {
+      background-color: #0b1df7;
+      color: #fff;
+    }
+h1 {
+  color: #ffffff;
+  font-size: 48px;
+  margin-bottom: 20px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+   .form-container {
+      background: rgba(255, 255, 255, 0.1);
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 0 10px rgba(0,0,0,0.5);
+      text-align: center;
+      width: 300px;
+    }
+    input, select, button {
+      margin: 10px 0;
+      padding: 10px;
+      border-radius: 8px;
+      border: none;
+      width: 100%;
+    }
+    button {
+      background: #38bdf8;
+      color: rgb(255, 255, 255);
+      cursor: pointer;
+      transition: 0.3s;
+    }
+    button:hover {
+      background: #0284c7;
+    }
+button {
+  padding: 10px 20px;
+  font-size: 18px;
+  border-radius: 8px;
+  cursor: pointer;
+  background-color: #ffffff;
+  color: #0810f0ff;
+  border: none;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+  transition: background-color 0.3s, color 0.3s;
+}
+
+button:hover {
+  background-color: #0810f0ff;
+  color: #ffffff;
+}
+button:active {
+  transform: scale(0.95);
+}
+a {
+  color: #ffffff;
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+  color: #0810f0ff;
+}
