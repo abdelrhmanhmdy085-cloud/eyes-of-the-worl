@@ -1,4 +1,4 @@
-     const texts = {
+       const texts = {
       ar: {
         title: "تسجيل مستخدم جديد",
         fullname: "الاسم بالكامل",
@@ -353,3 +353,8 @@
       document.getElementById("language").value = saved;
       changeLang();
     }
+    const saved = localStorage.getItem("lang") || "en";
+    applyLang(saved);
+    document.getElementById("language").value = saved;
+    changeLang();
+    
