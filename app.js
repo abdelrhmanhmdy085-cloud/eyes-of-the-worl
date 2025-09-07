@@ -13,7 +13,7 @@
         fullname: "Full Name",
         username: "Username",
         password: "Password",
-       emil: "Email", 
+       email: "Email", 
        phone: "Phone Number",
         registerBtn: "Register",
         langLabel: "Choose Language:",
@@ -338,7 +338,7 @@
       const username = document.getElementById("username").value.trim();
       const password = document.getElementById("password").value.trim();
       if (!fullname || !username || !password) {
-        return alert(lang === "ar" ? "من فضلك املأ كل الحقول." : "Please fill in all fields.");
+        return alert(lang === "ar" ? "من فضلك املأ كل البينات." : "Please fill in all fields.");
       }
       alert(texts[lang].success);
       document.getElementById("loginForm").reset();
@@ -357,5 +357,8 @@
     applyLang(saved);
     document.getElementById("language").value = saved;
     changeLang();
+<<<<<<< HEAD
     applyLang
   
+=======
+>>>>>>> f723acdf70509f3e4a0e5761580477a790c120d4
