@@ -1,4 +1,4 @@
-       const texts = {
+       const texts = 
       ar: {
         title: "تسجيل مستخدم جديد",
         fullname: "الاسم بالكامل",
