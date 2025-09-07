@@ -356,9 +356,3 @@
     const saved = localStorage.getItem("lang") || "en";
     applyLang(saved);
     document.getElementById("language").value = saved;
-    changeLang();
-<<<<<<< HEAD
-    applyLang
-  
-=======
->>>>>>> f723acdf70509f3e4a0e5761580477a790c120d4
