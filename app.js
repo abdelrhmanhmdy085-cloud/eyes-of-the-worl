@@ -338,7 +338,7 @@
       const username = document.getElementById("username").value.trim();
       const password = document.getElementById("password").value.trim();
       if (!fullname || !username || !password) {
-        return alert(lang === "ar" ? "من فضلك املأ كل الحقول." : "Please fill in all fields.");
+        return alert(lang === "ar" ? "من فضلك املأ كل البينات." : "Please fill in all fields.");
       }
       alert(texts[lang].success);
       document.getElementById("loginForm").reset();
@@ -357,4 +357,3 @@
     applyLang(saved);
     document.getElementById("language").value = saved;
     changeLang();
-    
