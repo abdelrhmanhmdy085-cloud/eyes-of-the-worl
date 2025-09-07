@@ -1,3 +1,6 @@
+git add .
+git commit -m "حفظ التغييرات"
+git push origin main
 body {
   margin: 0;
   padding: 0;
