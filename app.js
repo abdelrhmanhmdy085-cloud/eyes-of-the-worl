@@ -1,4 +1,4 @@
-       const texts = 
+       const texts = {
       ar: {
         title: "تسجيل مستخدم جديد",
         fullname: "الاسم بالكامل",
@@ -13,7 +13,7 @@
         fullname: "Full Name",
         username: "Username",
         password: "Password",
-       emil: "Email", 
+       email: "Email", 
        phone: "Phone Number",
         registerBtn: "Register",
         langLabel: "Choose Language:",
