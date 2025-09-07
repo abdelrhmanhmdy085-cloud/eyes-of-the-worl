@@ -357,4 +357,5 @@
     applyLang(saved);
     document.getElementById("language").value = saved;
     changeLang();
-    
+    applyLang
+  
