@@ -4,20 +4,38 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="style.css">
     <script src="script.js" defer></script>
 </head>
-<body>
+<body class="home">
     <header>
         <h1>Welcome to the Home Page</h1>
+        <nav>
+            <a href="home.html">الرئيسية</a>
+            <a href="about.html">عن الموقع</a>
+            <a href="contact.html">اتصل بنا</a>
+        </nav>
     </header>
     <main>
         <p>This is the main content of the home page.</p>
+
+        <!-- زرـــر المشاركة -->
+        <div class="share-buttons" aria-label="Share controls">
+          <button id="copyLinkBtn" type="button">انسخ الرابط</button>
+          <button id="shareBtn" type="button">مشاركة</button>
+          <a id="waShare" class="share-link" href="#" target="_blank" rel="noopener noreferrer">مشاركة عبر واتساب</a>
+          <a id="tgShare" class="share-link" href="#" target="_blank" rel="noopener noreferrer">مشاركة عبر تيليجرام</a>
+        </div>
     </main>
     <footer>
-
       
-      <p>&copy; 2025 My Website</p>
+      <p>&copy; 2025 My Website</p>  
     
     </footer>
+
+    <script src="app.js" defer></script>
+    
+</body>
+
+
 </html>
