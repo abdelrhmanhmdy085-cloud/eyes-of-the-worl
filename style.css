@@ -3,19 +3,19 @@
   margin: 0;
   padding: 0;
   height: 100vh;
-  background: url("eebaae82-7337-4ee3-bc75-4e2d972b8326.png") no-repeat center center fixed;
-  background-size: cover; /* تخلي الصورة تغطي الشاشة كلها */
-  font-family: 'Cairo', sans-serif;
-  background-color: #222; /* يظهر لو الصورة فشلت للمعاينة */
-  color: #ffffff;
+  font-family: 'Arial', sans-serif;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 20px;
-  box-sizing: border-box;
-} 
+  color: #ffffff;
+  font-size: 16px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
+  background: url("https://i.postimg.cc/s2fCWMwV/20250903-0004-remix-01k463sqfyeq9vkjvbqpgd08nz.png") 
+   no-repeat center center fixed;
+  background-size: cover;
+}
 /* تنسيق الروابط */
   a {
   color: #ffffff;
